@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.trent</groupId>
+	<artifactId>gphook</artifactId>
+	<version>1.0.3</version>
+	<description>POM was created from install:install-file</description>
+  
+	<repositories>
+		<repository>
+			<id>timefreezestudio-maven</id>
+			<url>https://raw.githubusercontent.com/goldstrikenetwork/goldstrike-maven/master</url>
+		</repository>
+	</repositories>
+	
+	<dependencies>
+		<dependency>
+			<groupId>me.ryanhamshire</groupId>
+			<artifactId>GriefPrevention</artifactId>
+			<version>16.12.alpha.1</version>
+		</dependency>
+	</dependencies>
+</project>
